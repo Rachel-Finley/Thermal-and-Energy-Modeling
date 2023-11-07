@@ -1,0 +1,14 @@
+Benchmarks,Experiment Running Time and Pattern (includes heat up and cooldown periods),GPU_Util (%),GRAM Util (%),Max GPU Temp (c),CPU util (%),Reach Steady Stage,HeatUp Time (s),Cooldown Time (s),Finished Cooling (to 30 (c))
+BERT,3 x 3 mins runtime,94,20,48,4,N,30,185,N
+DistilBERT,1 x 1.75 hrs runtime,99,90,67,3,Y,120,225,Y
+Machine Translation,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Fractal Generation,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a,n/a
+Image Classification,1 x 9 mins runtime,7,9,40,4,N,180,190,Y
+Sepia Filtering,3 x 6.8 mins runtime,6,7,41,4,N,180,160,Y
+Euclidean Distance,3 x 6.7 mins runtime,100,26,58,3,N,185,180,N
+Blackscholes,3 x 4 mins runtime,8,5,38,4,N,66,60,Y
+MonteCarlo,3 x 3.9 mins runtime,100,50,45,4,N,41,180,N
+Matrix Multiplication,3 x 4.5 mins runtime,15,22,41,4,N,100,110,Y
+K-means Clustering,3 X 4.2 mins runtime,13,8,38,4,N,58,160,Y
+Fourier Transformation,3 x 5.1 mins runtime,100,26,58,3,N,120,170,N
+Spectrogram,3 x 10.4 mins runtime,6,6,41,4,Y,140,181,Y
